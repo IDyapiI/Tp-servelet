@@ -6,7 +6,7 @@ var data = {
 	os: visitor.os.name + visitor.os.version,
 }
 	$.ajax({
-		url: "http://localhost:8080/projetServelet/ws/Exemple/Bonjour9",
+		url: "http://localhost:8080/projetservlet/ws/Exemple/Bonjour9",
 		contentType: "application/json",
 		data: JSON.stringify(data), 
 		//data: data, 
